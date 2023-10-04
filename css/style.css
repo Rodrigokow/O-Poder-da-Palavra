@@ -10,7 +10,7 @@ body{
     margin-left: 20px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
 }
-header {
+header{
     background-image: url=("../imagens/images.jpg");
     margin:auto;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
@@ -31,7 +31,7 @@ h2{
     text-shadow: 1px 1px 2px black;
 }
 p{
-    color:rgb(204, 196,173);
+    color:rgb(184, 176,153);
     text-shadow: 1px 1px 2px black; 
 }
 ul li{
@@ -50,4 +50,13 @@ ul li a{
 }
 ul{
     text-align: center;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    color:#e2e6e7;
+    font-weight: bold;
+    background-color: rgb(247, 127, 0);
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px black;   
 }
