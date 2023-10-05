@@ -1,25 +1,27 @@
 @charset"UTF-8";
 body{
-    background-color: rgb(234, 226,203);
+    background-image: url(../imagens/fundo.jpg);
 }
 .corpo{
+    background-color: bisque;
     text-align: center;
     padding: 20px 0;
     width: 90%;
     border: 8px white;
+    margin-top: -5px;
     margin-left: 20px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
 }
 header{
     background-image: url=("../imagens/images.jpg");
-    margin:auto;
+    margin:-20px 0px 20px 0px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
 }
 #foto{
     background-image: url(../imagens/imagem-bíblia.jpg);
     background-repeat: no-repeat;
-    background-size: 200px;
-    height: 100px;
+    background-size: 270px;
+    height: 150px;
 }
 h1{
     background-color: rgb(252, 191,73);
@@ -42,8 +44,9 @@ p{
 }
 ul li{
     text-align: center;
-    display: inline;
     margin-right: 20px;
+    padding: 4px;
+    text-decoration: none;
     
 }
 ul li a{
