@@ -6,7 +6,7 @@ body{
     background-color: bisque;
     text-align: center;
     padding: 20px 0;
-    width: 90%;
+    width: 95%;
     border: 8px white;
     margin-top: -5px;
     margin-left: 20px;
@@ -20,8 +20,22 @@ header{
 #foto{
     background-image: url(../imagens/imagem-bíblia.jpg);
     background-repeat: no-repeat;
-    background-size: 270px;
-    height: 150px;
+    background-size: 300px;
+    height: 170px;
+}
+ img {
+    width: 100px;
+    display: flex; 
+    align-items: center;
+    max-width: 50%; 
+    height: auto; 
+    margin-left: 40px; 
+}
+#sobre {
+    flex: 1; 
+    width: 400px;
+    margin-left: 200px;
+    margin-top: -100px;
 }
 h1{
     background-color: rgb(252, 191,73);
@@ -39,15 +53,17 @@ h2{
     text-shadow: 1px 1px 2px black;
 }
 p{
-    color:rgb(184, 176,153);
-    text-shadow: 1px 1px 2px black; 
+    color:black;
+     
 }
 ul li{
     text-align: center;
     margin-right: 20px;
     padding: 4px;
-    text-decoration: none;
-    
+    list-style: none;
+    color:rgb(247, 127, 0);
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black; 
 }
 ul li a{
     text-align: center;
@@ -60,6 +76,10 @@ ul li a{
 }
 ul{
     text-align: center;
+    width: 80px;
+    padding: 5px;
+    margin-left: 400px;
+    background-color:rgb(252, 191,73) ;
 }
 a{
     text-align: center;
