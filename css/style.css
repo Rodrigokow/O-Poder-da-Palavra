@@ -1,4 +1,13 @@
-@charset"UTF-8";
+@charset"UTF-8";@media screen and (max-width: 768px) {
+    /* Estilos para telas menores (exemplo: smartphones) */
+}
+
+@media screen and (min-width: 769px) {
+    /* Estilos para telas maiores (exemplo: tablets e desktops) */
+}
+
+
+
 body{
     background-image: url(../imagens/fundo.jpg);}
      .corpo{
