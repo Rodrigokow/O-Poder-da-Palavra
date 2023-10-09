@@ -1,15 +1,10 @@
-@charset"UTF-8";@media screen and (max-width: 768px) {
-    /* Estilos para telas menores (exemplo: smartphones) */
-}
+@charset"UTF-8";
+@media screen and (max-width: 768px){ }
 
-@media screen and (min-width: 769px) {
-    /* Estilos para telas maiores (exemplo: tablets e desktops) */
-}
-
-
+@media screen and (min-width: 769px) { }
 
 body{
-    background-image: url(../imagens/fundo.jpg);}
+    background-image: url=("../imagens/fundo.jpg");}
      .corpo{
      width: 999px;
      margin-left: 30px;
@@ -24,6 +19,7 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     color:white ;
     background-color:rgb(76, 84,104);
+    font-size: 2em;
 }  
 h2{
     font-family: Arial, Helvetica, sans-serif;
@@ -33,7 +29,8 @@ h2{
 p{
 
     color:rgb(76, 84,104) ;
-    text-align: justify; 
+    text-align: center; 
+
 } 
 ul.menu {
     list-style-type: none;
